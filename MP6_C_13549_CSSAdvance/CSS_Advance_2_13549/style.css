@@ -1,0 +1,94 @@
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f0f8f0;
+    margin: 20px;
+    color: #333333;
+}
+
+h1 {
+    text-align: center;
+    color: white;
+    background-color: #27864b;
+    padding: 20px;
+    border-radius: 8px;
+}
+
+h2 {
+    color: #27864b;
+    border-bottom: 2px solid #27864b;
+    padding-bottom: 5px;
+    margin-top: 25px;
+}
+
+form {
+    width: 80%;
+    margin: auto;
+    background-color: white;
+    padding: 20px;
+    border: 1px solid #cccccc;
+    border-radius: 8px;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-bottom: 20px;
+}
+
+td {
+    padding: 10px;
+    border: 1px solid #dddddd;
+}
+
+td:first-child {
+    width: 35%;
+    background-color: #eaf5ec;
+}
+
+input[type="text"] {
+    width: 90%;
+    padding: 8px;
+    border: 1px solid #aaaaaa;
+    border-radius: 4px;
+}
+
+select {
+    padding: 8px;
+    border: 1px solid #aaaaaa;
+    border-radius: 4px;
+}
+
+textarea {
+    width: 90%;
+    padding: 8px;
+    border: 1px solid #aaaaaa;
+    border-radius: 4px;
+    font-family: Arial, sans-serif;
+}
+
+input[type="radio"],
+input[type="checkbox"] {
+    margin-right: 5px;
+}
+
+p {
+    margin: 8px 0;
+}
+
+input[type="file"] {
+    padding: 5px;
+}
+
+input[type="submit"] {
+    background-color: #27864b;
+    color: white;
+    padding: 10px 25px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+input[type="submit"]:hover {
+    background-color: #196535;
+}
